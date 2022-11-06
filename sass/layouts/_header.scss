@@ -16,7 +16,7 @@
 .logo__part--dark {
   color: var(--accent-color);
 }
-.menu {
+.navigation__menu {
   display: flex;
 }
 .menu__item:not(:last-child) {
@@ -55,7 +55,7 @@
   }
 }
 
-.contacts {
+.header__contacts {
   display: flex;
   margin-left: auto;
 }

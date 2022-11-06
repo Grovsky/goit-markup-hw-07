@@ -1,7 +1,7 @@
 .process {
   padding-top: 0;
 }
-.picture-list {
+.process__picture {
   display: flex;
 }
 .process__title {
@@ -11,14 +11,15 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.picture-list__item {
+.picture__item {
   position: relative;
+  z-index: -1;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.picture-list__text-img {
+.picture__text-img {
   position: absolute;
   display: flex;
   justify-content: center;
